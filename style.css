@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: black;
+    background-color: rgb(31, 63, 207);
 }
 header{
     background-color: whitesmoke;
@@ -47,6 +47,7 @@ header h1{
 .result{
     font-size: 40px;
     color: #fff;
+    text-align: center;
 }
 .result p{
     text-align: center;
