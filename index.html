@@ -10,11 +10,19 @@
 <body>
     <header>
         <h1>Rock - Papper - Scissors</h1>
+        <br>
+        <div class="namaes">
+            <label for="player1">Jugador 1</label>
+            <input type="text" name="nombre" class="namae" id="player1">
+            <label for="player2">Nombre de la Máquina</label>
+            <input type="text" name="nombre" class="namae" id="player2">
+            <input type="button" value="start" onclick="getInputValue()">
+        </div>
     </header>
 
     <div class="scoreBoard">
         <div id="userLabel" class="badge">User</div>
-        <div id="computerLaber" class="badge">Computer</div>
+        <div id="computerLabel" class="badge">Computer</div>
         <span id="userScoreID">0</span> : <span id="computerScoreID">0</span>
     </div>
 

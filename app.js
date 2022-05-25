@@ -64,4 +64,12 @@ const main = () => {
     });
 };
 
+function getInputValue() {
+    const input1 = document.getElementById('player1').value;
+    const input2 = document.getElementById('player2').value;
+
+    document.getElementById('userLabel').innerHTML = input1;
+    document.getElementById('computerLabel').innerHTML = input2;
+}
+
 main();
